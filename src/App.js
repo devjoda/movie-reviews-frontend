@@ -11,7 +11,7 @@ import SiteHeader from './components/SiteHeader'
 
 // apollo client
 const client = new ApolloClient({
-  uri: 'joda-movie-reviews-backend.herokuapp.com/graphql',
+  uri: 'http://localhost:1337/graphql',
   cache: new InMemoryCache(),
 })
 
