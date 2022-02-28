@@ -11,7 +11,7 @@ import SiteHeader from './components/SiteHeader'
 
 // apollo client
 const client = new ApolloClient({
-  uri: 'http://joda-movie-reviews-backend.herokuapp.com/graphql',
+  uri: 'https://cryptic-mountain-38259.herokuapp.com/graphql',
   cache: new InMemoryCache(),
 })
 
