@@ -3,6 +3,8 @@ import { useQuery, gql } from '@apollo/client'
 import { useParams, Link } from 'react-router-dom'
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
 
+// test
+
 const CATEGORY = gql`
   query GetCategory($id: ID!) {
     category(id: $id) {
